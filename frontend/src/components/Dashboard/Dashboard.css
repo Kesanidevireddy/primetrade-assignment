@@ -1,0 +1,103 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0077b6;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+header h2 {
+  margin: 0;
+}
+
+header div span {
+  margin-right: 15px;
+}
+
+header div button {
+  background: #f94144;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header div button:hover {
+  background: #d90429;
+}
+
+.task-form-section, .tasks-list {
+  margin-top: 20px;
+  padding: 15px;
+  background: #caf0f8;
+  border-radius: 8px;
+}
+
+.task-form-section form input,
+.task-form-section form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #0077b6;
+}
+
+.task-form-section form button {
+  background: #0077b6;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-form-section form button:hover {
+  background: #023e8a;
+}
+
+.task-card {
+  border: 1px solid #0077b6;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.task-card h4 {
+  margin: 0 0 5px 0;
+}
+
+.task-actions button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.task-actions button:first-child {
+  background: #ffd60a;
+}
+
+.task-actions button:last-child {
+  background: #f94144;
+  color: white;
+}
+
+.task-actions button:first-child:hover {
+  background: #e0b90a;
+}
+
+.task-actions button:last-child:hover {
+  background: #d90429;
+}
